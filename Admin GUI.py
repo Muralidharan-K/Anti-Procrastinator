@@ -10,7 +10,7 @@ import math
 
 username = getpass.getuser()
 newpath = r'C:\Users\%s\Desktop\Python'%(username)
-    
+
 # Creates unique directory(folder) in the machine
 def create_new_directory():
     if not os.path.exists(newpath):
