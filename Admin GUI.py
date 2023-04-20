@@ -8,7 +8,7 @@ import pickle
 import mysql.connector as mc
 import math
 
-username=getpass.getuser()
+username = getpass.getuser()
 newpath = r'C:\Users\%s\Desktop\Python'%(username)
     
 # Creates unique directory(folder) in the machine
@@ -41,7 +41,7 @@ M_win.state('zoomed')
 class ProjLabel:
     def __init__(self):
         global banner
-        banner=Label(M_win, text='Anti Procrastinator', bg='#FF3399',font=('Polya',50, 'bold', 'italic')).pack(side='top', fill='x')
+        banner = Label(M_win, text = 'Anti Procrastinator', bg = '#FF3399',font = ('Polya',50, 'bold', 'italic')).pack(side = 'top', fill='x')
         
 class Login:
     def __init__(self):        
