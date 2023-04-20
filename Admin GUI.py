@@ -257,7 +257,7 @@ class CreateBlacklist:
                 messagebox.showinfo('Alert', 'Such given combination does not exit')                        
     def home(self):
         create_frame.destroy()
-        Admin()        
+        Admin()
 
 class UpdatePrivilege:
     def __init__ (self):
@@ -681,7 +681,6 @@ class BrowserControl:
     def back(self):
         browse_frame.destroy()
         BrowserControl()
-            
 ProjLabel()
 Login()
 M_win.mainloop()
